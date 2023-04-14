@@ -1,0 +1,85 @@
+.border_show{
+    border: 2px black solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.border_left_show{
+    border-left: 4px red solid;
+}
+
+.border_right_show{
+    border-right: 4px blue solid;
+}
+
+.border_top_show{
+    border-top: 4px green solid;
+}
+
+.border_bottom_show{
+    border-bottom: 4px yellow solid;
+}
+
+.border_radius{
+    border-radius: 20%;
+}
+
+.background{
+    background-image: url("../html/images/dog.jpg");
+    background-size: 95px;
+    color: white;
+}
+
+.color{
+    background-color: black;
+    color: white;
+}
+
+.font{
+    font: caption;
+}
+
+.font_family{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font_style{
+    font-style: italic;
+}
+
+.font_weight{
+    font-weight: 600;
+}
+
+.width_height{
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+}
+
+.list_style{
+    list-style: square;
+}
+
+.margin{
+    margin: auto;
+    background-color: red;
+}
+
+.padding{
+    padding: 10%;
+}
+
+.overflow{
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+
+.display{
+    display: block;
+}
+
+.position{
+    position: initial;
+}
