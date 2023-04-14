@@ -81,5 +81,10 @@
 }
 
 .position{
-    position: initial;
+    position: relative;
+    top: 40px; left: 30px;
+}
+
+.filter{
+    filter: grayscale(100%);
 }
