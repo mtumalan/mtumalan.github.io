@@ -2,26 +2,50 @@ body{
     margin: 0px;
 }
 
-.grid-main{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+input{
+    margin: 0px 10px 0px 10px;
 }
 
-.head{
+img{
+    height: 75px;
+    margin-top: 20px;
+}
+
+.grid-main{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+}
+
+.set{
     background-color: rgb(39, 39, 81);
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 1 / span 3;
     grid-row: 1;
-    padding: 20px;
-    height: 5vh;
+    padding: 10px;
+}
+
+.head{
+    grid-row: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1;
+}
+
+.mid{
+    grid-row: 10;
+}
+
+.foot{
+    grid-row: 12;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -32,7 +56,7 @@ body{
 }
 
 .item2{
-    grid-column: 1 /span 3;
+    grid-row: 2 / span 8;
     padding: 50px;
     display: flex;
     flex-direction:column;
@@ -41,4 +65,3 @@ body{
     background-color: rgb(243, 151, 47);
     color: white;
 }
-
