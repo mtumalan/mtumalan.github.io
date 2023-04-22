@@ -19,7 +19,7 @@ img{
 
 .grid-main{
     display: grid;
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(20, 1fr);
     height: 100vh;
 }
 
@@ -42,7 +42,7 @@ img{
 }
 
 .foot{
-    grid-row: 12;
+    grid-row: 20;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,4 +69,8 @@ img{
     align-items: center;
     background-color: rgb(243, 151, 47);
     color: white;
+}
+
+.item3{
+    grid-row: 11 / span 8;
 }
