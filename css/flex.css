@@ -38,7 +38,7 @@ img{
 }
 
 .mid{
-    grid-row: 10;
+    grid-row: 12;
 }
 
 .foot{
@@ -61,7 +61,7 @@ img{
 }
 
 .item2{
-    grid-row: 2 / span 8;
+    grid-row: 2 / span 10;
     padding: 50px;
     display: flex;
     flex-direction:column;
@@ -72,5 +72,5 @@ img{
 }
 
 .item3{
-    grid-row: 11 / span 8;
+    grid-row: 13 / span 7;
 }
