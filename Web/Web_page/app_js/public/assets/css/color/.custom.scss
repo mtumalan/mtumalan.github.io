@@ -1,0 +1,276 @@
+/** ***************************************************************
+	
+	
+	@Item           Legendary - One Page
+	@Version        1.0
+	@Author			Avanzare
+	@Website		http://themeforest.net/user/avanzare
+
+
+	TABLE OF CONTENTS
+	---------------------------
+	 1. Layout
+	 2. Blocks
+
+ 
+ **  **************************************************************/
+
+
+
+
+/** COLOR PRESETS **/
+
+$default: #af997f;
+$red: #f44336;
+$pink: #e91e63;
+$purple: #9c27b0;
+$deep-purple: #673ab7;
+
+$indigo: #3f51b5;
+$blue: #2196f3;
+$light-blue: #03a9f4;
+$cyan: #00bcd4;
+$teal: #009688;
+
+$green: #4caf50;
+$light-green: #8bc34a;
+$lime: #cddc39;
+$yellow: #ffeb3b;
+$amber: #ffc107;
+
+$orange: #ff9800;
+$deep-orange: #ff5722;
+$brown: #795548;
+$blue-grey: #607d8b;
+
+
+/** ENTER YOUR COLOR PRESETS OR A COLOR VALUE  **/
+
+$core-color: $amber;
+
+
+
+
+/** 1. LAYOUT
+*******************************************************************/
+
+/** PAGE LOAD **/
+
+#page-loader .css-spinner
+{
+    border-top-color: $core-color !important;
+    border-left-color: $core-color !important;
+}
+
+
+
+
+/** NAVIGATION **/
+
+.navigation-main ul li a:hover,
+.navigation-main ul li span:hover,
+.navigation-main ul li.current a
+{
+    color: $core-color !important;
+}
+
+.navigation-main ul li .dropdown-menu a:hover,
+.navigation-main ul li.dropdown.open span
+{
+    color: $core-color !important;
+}
+
+
+
+
+/** TYPOGRAPHY **/
+
+blockquote.blockquote-default
+{
+    border-color: $core-color !important;
+}
+
+
+
+
+/** SHORTCODES **/
+
+ul.tab-navigation-default li.active
+{
+    background: $core-color !important;
+}
+
+.progess-bar-default .progress-bar
+{
+    background-color: $core-color !important;
+}
+
+a.button-default:before
+{
+    background: $core-color !important;
+}
+
+a.button-default.inverted:hover:before
+{
+    border-color: $core-color !important;
+}
+
+a.button-default.inverted:after
+{
+    background: $core-color !important;
+}
+
+.default-slider .cbp-nav-pagination-item
+{
+    background: $core-color !important;
+}
+
+.pricing-table-default
+{
+    background: $core-color !important;
+}
+
+.pricing-table-default .button-default:hover:before
+{
+    border-color: $core-color !important;
+}
+
+.popup-container
+{
+    background: $core-color !important;
+}
+
+
+
+
+/** PLUGINS **/
+
+.cbp:after,
+.cbp-lazyload:after,
+.cbp-popup-loadingBox:after,
+.cbp-popup-singlePageInline:after
+{
+    border-color: $core-color !important;
+}
+
+
+
+
+/** HERO **/
+
+.hero .background-content .bg-color
+{
+	background: $core-color;
+}
+
+
+
+
+/** 2. BLOCKS
+*******************************************************************/
+
+.block-about-1 .container-video a span
+{
+    background: $core-color !important;
+}
+
+.block-service-1 .tab-navigation li.active a span
+{
+    color: $core-color !important;
+}
+
+.block-work-1 .work-grid a .cbp-caption-activeWrap
+{
+    background-color: $core-color !important;
+}
+
+.block-work-1 .load-more:before
+{
+    background: $core-color !important;
+}
+
+.block-process-1 .process-info-box
+{
+    background: $core-color !important;
+}
+
+.block-team-1 .cbp-item .cbp-caption-activeWrap
+{
+    background: $core-color !important;
+}
+
+.block-team-1 .our-skills .progress-bar
+{
+    background-color: $core-color !important;
+}
+
+.block-news-1 .container-news .container-article-info .container-title {
+    background: $core-color !important;
+}
+
+.block-news-1 .container-news .container-article-info .container-button
+{
+    background: $core-color !important;
+}
+
+.block-contact-1 .tab-content form .form-group
+{
+    background: $core-color !important;
+}
+
+.block-contact-1 .tab-content form .form-group:after
+{
+    background: $core-color !important;
+}
+
+.block-contact-1 .tab-content .map-wrapper .button-description .content-visible,
+.block-contact-1 .tab-content .map-wrapper .button-description .content-hidden
+{
+    background: $core-color !important;
+}
+
+.block-contact-1 .tab-content .map-wrapper .container-info ul li h5
+{
+    color: $core-color !important;
+}
+
+.block-contact-1 .tab-content .map-wrapper .container-info ul li a
+{
+    color: $core-color !important;
+}
+
+.block-contact-1 .tab-content .row .col-xs-4 .container-social-item .container-description
+{
+    background: $core-color !important;
+}
+
+#popup-close-button-1
+{
+    background: $core-color !important;
+}
+
+.popup-showcase-style-1 .content.bg-gold
+{
+    background: $core-color !important;
+}
+
+.popup-showcase-style-1 .cbp-nav-pagination-item
+{
+    background: $core-color !important;
+}
+
+.popup-showcase-style-1 .button-description .content-visible,
+.popup-showcase-style-1 .button-description .content-hidden
+{
+    background: $core-color !important;
+}
+
+.popup-showcase-style-1 .container-info ul li h5
+{
+    color: $core-color !important;
+}
+
+.popup-showcase-style-1 .container-info ul li a
+{
+    color: $core-color !important;
+}
