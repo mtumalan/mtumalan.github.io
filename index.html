@@ -1,14 +1,206 @@
 <!DOCTYPE html>
-<body>
-    <h1>Tareas A01369288</h1>
-    <h3>Entregas de mis tareas</h3>
-    <ul>
-        <li><a href="html/cheat_sheet.html">Cheat Sheet HTML</a></li>
-        <li><a href="html/css_cheat_sheet.html">Cheat Sheet CSS</a></li>
-        <li><a href="html/css_grid.html">CSS Grids</a></li>
-        <li><a href="html/flex.html">Flexbox</a></li>
-        <li><a href="html/javascript.html">Javascript</a></li>
-        <li><a href="html/DomIndex.html">Eventos y DOM</a></li>
-        <li><a href="Web/Web_page/app_js/public/index-1.html">MealtimeMayhem</a>></li>
-    </ul>
-</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mau Tumalán Portfolio</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+</head>
+<!-- NavBar -->
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TumTum</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Social</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--End NavBar-->
+
+<!-- Hero -->
+<div class="container my-24 mx-auto md:px-6 dark:bg-gray-900">
+  <section class="mb-32 text-center">
+    <h2 class="mb-12 text-5xl font-bold tracking-tight md:text-6xl xl:text-7xl dark:text-white">
+      Hello world!!
+    </h2>
+    <p class="mx-auto text-base text-gray-600 md:text-lg xl:text-xl dark:text-gray-400">
+          I'm Mau Tumalán, a full-stack developer with a passion for front-end development. Love to create beautiful and functional code while having the most creative approach possible.
+  </section>
+</div>
+<!-- End Hero -->
+
+<!-- Projects -->
+<div class="container my-24 mx-auto md:px-6">
+  <section class="mb-32">
+    <style>
+      .zoom:hover img {
+        transform: scale(1.1);
+      }
+    </style>
+    <h2 class="mb-12 text-center text-3xl font-bold">My latest projects</h2>
+
+    <div class="grid gap-6 lg:grid-cols-3">
+      <div
+        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          src="media/traffic.jpg"
+          class="w-full align-middle transition duration-300 ease-linear" />
+        <a href="#!">
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+            <div class="flex h-full items-end justify-start">
+              <div class="m-6 text-white">
+                <h5 class="mb-3 text-lg font-bold">Traffic Simulation</h5>
+                <p>
+                  <small><u>12.11.2023</u> with Unity and Python</small>
+                </p>
+                <p>
+                  <small>Image from Unsplash by <u>Denys Nevozhai</u></small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+        </a>
+      </div>
+
+      <div
+        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          src="media/acapulco.jpg"
+          class="h-full align-middle transition duration-300 ease-linear" />
+        <a href="#!">
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+            <div class="flex h-full items-end justify-start">
+              <div class="m-6 text-white">
+                <h5 class="mb-3 text-lg font-bold">Hurricaine Otis People Finder</h5>
+                <p>
+                  <small><u>29.10.2023</u> using HTML, TailwindCSS and JS</small>
+                </p>
+                <p>
+                  <small>Image from Unsplash by <u>Pablo García Saldaña</u></small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+        </a>
+      </div>
+
+      <div
+        class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+        data-te-ripple-init
+        data-te-ripple-color="light">
+        <img
+          src="media/reportsys.jpg"
+          class="h-full align-middle transition duration-300 ease-linear" />
+        <a href="#!">
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+            <div class="flex h-full items-end justify-start">
+              <div class="m-6 text-white">
+                <h5 class="mb-3 text-lg font-bold">Incidentia: Ticketing Report System</h5>
+                <p>
+                  <small><u>20.10.2023</u> using React Admin, NodeJS and MongoDB</small>
+                </p>
+                <p>
+                  <small>Image from Unsplash by <u>Lukas Blazek</u></small>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+</div>
+<!-- End Projects -->
+
+<!-- Skills -->
+<div class="container my-24 mx-auto md:px-6 dark:bg-gray-900">
+  <section class="mb-32 text-center">
+    <style>
+      .zoom:hover img {
+        transform: scale(1.1);
+      }
+    </style>
+    <h2 class="mb-12 text-3xl font-bold tracking-tight md:text-6xl xl:text-7xl dark:text-white">
+      Skills
+    </h2>
+    <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <a class="zoom" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
+        <img src="https://img.icons8.com/color/96/000000/html-5.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="HTML">
+      </a>
+      <a class="zoom" href="https://www.w3schools.com/css/">
+        <img src="https://img.icons8.com/color/96/000000/css3.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="CSS">
+      </a>
+      <a class="zoom" href="https://www.w3schools.com/js/">
+        <img src="https://img.icons8.com/color/96/000000/javascript.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="JavaScript">
+      </a>
+      <a class="zoom" href="https://tailwindcss.com/">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="Tailwind CSS">
+      </a>
+      <a class="zoom" href="https://www.python.org/">
+        <img src="https://img.icons8.com/color/96/000000/python.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="Python">
+      </a>
+      <a class="zoom" href="https://learn.microsoft.com/en-us/cpp/?view=msvc-170">
+        <img src="https://img.icons8.com/color/96/000000/c-plus-plus-logo.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="C++">
+      </a>
+      <a class="zoom" href="https://learn.microsoft.com/en-us/dotnet/csharp/">
+        <img src="https://img.icons8.com/color/96/000000/c-sharp-logo.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="C#">
+      </a>
+      <a class="zoom" href="https://www.arduino.cc/">
+        <img src="https://img.icons8.com/color/96/000000/arduino.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="Arduino">
+      </a>
+      <a class="zoom" href="https://mysql.com/">
+        <img src="https://img.icons8.com/color/96/000000/mysql-logo.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="MySQL">
+      </a>
+      <a class="zoom" href="https://www.mongodb.com/">
+        <img src="https://img.icons8.com/color/96/000000/mongodb.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="MongoDB">
+      </a>
+      <a class="zoom" href="https://nodejs.org/en">
+        <img src="https://img.icons8.com/color/96/000000/nodejs.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="NodeJS">
+      </a>
+      <a class="zoom" href="https://git-scm.com/">
+        <img src="https://img.icons8.com/color/96/000000/git.png" class="w-24 h-24 mx-auto transition duration-300 ease-linear" alt="Git">
+      </a>
+    </div>
+  </section>
+</div>
+<!-- End Skills -->
+
+<!-- Script for NavBar with TailWind and FlowBite -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+</html>
